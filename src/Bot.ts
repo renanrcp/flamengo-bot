@@ -7,4 +7,4 @@ const client = new Client({
   intents: []
 });
 
-console.log(client);
+client.login(process.env.BOT_TOKEN);
