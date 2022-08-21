@@ -1,7 +1,7 @@
-import "dotenv/config";
-import { Client, ClientOptions } from "discord.js";
-import Ready from "./listeners/Ready";
-import InteractionCreate from "./listeners/InteractionCreate";
+import 'dotenv/config';
+import { Client, ClientOptions } from 'discord.js';
+import Ready from './listeners/Ready';
+import InteractionCreate from './listeners/InteractionCreate';
 
 console.log("Bot is starting...");
 

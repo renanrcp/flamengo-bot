@@ -1,4 +1,4 @@
-import { Client } from "discord.js";
+import { Client } from 'discord.js';
 
 export default (client: Client) => {
   client.on("ready", () => {

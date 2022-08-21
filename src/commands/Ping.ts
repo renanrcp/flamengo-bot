@@ -1,5 +1,5 @@
-import { CacheType, ChatInputCommandInteraction } from "discord.js";
-import Command from "./Command";
+import { CacheType, ChatInputCommandInteraction } from 'discord.js';
+import Command from './Command';
 
 const run = async (interaction: ChatInputCommandInteraction<CacheType>) => {
   await interaction.reply('Pong!');

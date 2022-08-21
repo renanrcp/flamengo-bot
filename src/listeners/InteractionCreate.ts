@@ -1,6 +1,6 @@
-import { Client } from "discord.js";
-import Command from "../commands/Command";
-import Ping from "../commands/Ping";
+import { Client } from 'discord.js';
+import Command from '../commands/Command';
+import Ping from '../commands/Ping';
 
 
 const commands = new Map<string, Command>();
