@@ -11,7 +11,8 @@ if (!token || !clientId || !guildId) {
 }
 
 const commands = [
-  new SlashCommandBuilder().setName('ping').setDescription('Replies with pong!'),
+  new SlashCommandBuilder().setName('ping').setDescription('Replies with pong.'),
+  new SlashCommandBuilder().setName('next-game').setDescription('Replies with the next Flamengo game.'),
 ].map(command => command.toJSON());
 
 const rest = new REST({ version: '10' }).setToken(token);
